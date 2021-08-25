@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
+import pdf from "../../Assets/RESUME_SHIBAM.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -42,45 +42,45 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="JUNIOR ML ENGINEER [Omdena]"
+              title="AGORA HACKERTHON FIRST POSITION"
               date="June 2020 - August 2020"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
+                "As i am nowa 1 st year student i have no such experiences but . one time i compited in agora hackerthon and occupied the first position.",
+                "The hole jurney frommaking the app to the results it was truely amezing .",
               ]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
+              title="Singing and playing guitar"
               content={[
-                "Worked on creating the frontend-end of the website using Bootstrap, Javascript.",
+                "Apart from coding i enjoy to sing and play guitar",
               ]}
             />
             <Resumecontent
-              title="Web Developer [Bitotsav-2020 Technical Fest of BIT Mesra]"
+              title="playing cricket"
               content={[
-                "Operated on developing the frontend end of the website using Bootstrap, Javascript and backend APIs using Node.js",
+                "I also love to play cricket",
               ]}
             />
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
-              date="2018 - Present"
-              content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
+              title="B.TECH CSE [Jalpaiguri Gorvnment Engineering Collage] "
+              date="2020 - Present"
+              content={[`1st sem results not came out yet`]}
             />
             <Resumecontent
-              title="12TH BOARD [ODM Public School,Odisha]"
-              date="2015 - 2017"
-              content={["Precentage: 88%"]}
+              title="12TH BOARD [Kakdwip Birendra Vidya Niketan]"
+              date="2017 - 2019"
+              content={["Precentage: 76%"]}
             />
             <Resumecontent
-              title="10TH BOARD [ST Mary's School,Odisha] "
-              date="2005 - 2015"
-              content={["Precentage: 86%"]}
+              title="10TH BOARD [Kakdwip Birendra Vidya Niketan] "
+              date="2012 - 2017"
+              content={["Precentage: 91%"]}
             />
-            <h3 className="resume-title">Ranks and Achivements</h3>
+            {/* <h3 className="resume-title">Ranks and Achivements</h3>
             <Resumecontent
               title=""
               content={[
@@ -89,7 +89,7 @@ function Resume() {
                 "Top Performer in Code-Break 1.0",
                 "Participant in Hack-A-Bit 2019",
               ]}
-            />
+            /> */}
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
